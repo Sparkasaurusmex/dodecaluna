@@ -1,0 +1,16 @@
+{
+  "name": "dodecaluna",
+  "title": "Dodecaluna",
+  "description": "A fix for Calendar Weather to better display 12-20 moons",
+  "version": "0.1",
+  "author": "Sparkasaurusmex",
+  "scripts": [ "dodecaluna.js" ],
+  "styles": [ "dodecaluna.css" ],
+  "esmodules": [],
+  "packs": [],
+  "url": "https://github.com/Sparkasaurusmex/dodecaluna/",
+  "manifest": "https://raw.githubusercontent.com/Sparkasaurusmex/dodecaluna/master/module.json",
+  "download": "https://github.com/Sparkasaurusmex/dodecaluna/releases/download/0.1/dodecaluna.zip",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.6.5"
+}

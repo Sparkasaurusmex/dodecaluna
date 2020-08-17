@@ -1,0 +1,96 @@
+
+/* Calendar */
+#calendar {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100px;
+    width: 306px;
+}
+.calendar-btn-container-right {
+    width: 13%;
+    grid-row-gap: 14px;
+}
+.calendar-btn-container-left {
+    width: 14%;
+    grid-row-gap: 14px;
+}
+[id*=calender-moon-symbol] {
+    margin-top: auto;
+    margin-left: 3px;
+    padding-left: 0px;
+    width: 20px;
+    border: 0;
+}
+#calendar-weekday {
+    margin: 0;
+    text-align: left;
+    margin-left: 26px;
+}
+.calendar-time-disp {
+    position: relative;
+    bottom: 7px;
+    margin-left: 34px;
+}
+
+.calendar-weekday-time {
+    width: 70%;
+}
+#calendar-hdr {
+    width: 99%;
+}
+#calendar-weather {
+    width: 90%
+}
+.calendar-weekday-cntr {
+    grid-column: 1;
+    grid-row: 2;
+    height: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #111;
+    display: table-column-group;
+}
+#calendar-btn-day {
+    color: #bdbd7e;
+}
+#calendar-btn-night {
+    color: lightblue;
+}
+#calendar-btn-quick {
+    color: #a03448;
+}
+#calendar-btn-long {
+    color: #a03448;
+}
+#calendar-btn-fiveMin {
+    color: #a03448;
+}
+#calendar-btn-min {
+    color: #a03448;
+}
+#calendar-events {
+    color: whitesmoke;
+}
+#calendar-events:hover {
+    color: #f1ff1a;
+}
+#calendar-weather {
+    color: #aba9a9 !important;
+}
+#calendar-weather:hover {
+  color: white !important;
+}
+#calendar-btn-sec {
+    color: #a03448 !important;
+    cursor: pointer !important;
+}
+#calendar-btn-sec:hover {
+  color:white !important;
+  cursor: pointer !important;
+}
+#calendar-btn-halfMin {
+    color: #a03448 !important;
+}
+#calendar-btn-halfMin:hover{
+  color:white !important;
+  cursor: pointer !important;
+}
